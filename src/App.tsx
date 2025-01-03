@@ -1,9 +1,10 @@
 import './App.css'
+import { BackgroundCellAnimation } from './BackgroundRippleEffect'
 
 function App() {
   return (
     <>
-      <h1>My Portfolio</h1>
+      <BackgroundCellAnimation />
     </>
   )
 }
